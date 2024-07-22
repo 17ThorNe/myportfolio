@@ -1,8 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
 function HomePage() {
-  function changeToSkill() {}
+  const navigate = useNavigate();
+  const navigateAboutme = useNavigate();
+
+  function changeToSkill(e) {
+    e.preventDefault();
+    navigate("/skill");
+  }
+  function changeToAboutme(e) {
+    e.preventDefault();
+    navigateAboutme("/Aboutme.js");
+  }
 
   return (
     <section>
@@ -21,7 +32,7 @@ function HomePage() {
             <a href="#">Experience</a>
           </li>
           <li>
-            <a href="#">Contac me</a>
+            <a href="#">Contact me</a>
           </li>
         </ul>
         <button>Download CV</button>

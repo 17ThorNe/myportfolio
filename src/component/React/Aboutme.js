@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./Skill.css";
+import "./Aboutme.css";
 
-function Skill() {
+function Aboutme() {
   const navigate = useNavigate();
 
   function changeToHomePage(e) {
@@ -16,7 +16,7 @@ function Skill() {
         <p onClick={changeToHomePage}>THORNE</p>
         <ul>
           <li>
-            <a href="#">About me</a>
+            <a href="./">About me</a>
           </li>
           <li>
             <a href="#">Skill</a>
@@ -30,9 +30,9 @@ function Skill() {
         </ul>
         <button>Download CV</button>
       </div>
-      <h1>Hello Skill here</h1>
+      <h1>Hello Aboutme here</h1>
     </section>
   );
 }
 
-export default Skill;
+export default Aboutme;
