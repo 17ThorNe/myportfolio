@@ -7,13 +7,14 @@
   width: 100%;
   font-family: "Spicy Rice", serif;
   height: 70px;
+  justify-content: space-between;
   display: flex;
   align-items: center;
-  justify-content: space-around;
   background-color: white;
   box-shadow: 0px 0px 10px #0eb65f;
 }
 .contain_nav_bar p {
+  margin-left: 150px;
   color: #0eb65f;
   cursor: pointer;
   font-size: 25px;
@@ -25,10 +26,10 @@
 
 .contain_nav_bar ul {
   display: flex;
+  gap: 100px;
 }
 .contain_nav_bar li {
   list-style: none;
-  margin-left: 100px;
 }
 .contain_nav_bar li a {
   color: black;
@@ -42,6 +43,7 @@
   background-color: transparent;
   padding: 10px 25px 10px 25px;
   border: 2px solid #0eb65f;
+  margin-right: 150px;
   border-radius: 10px;
   transition: 0.2s;
   cursor: pointer;
