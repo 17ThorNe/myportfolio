@@ -4,7 +4,7 @@ import "./Home.css";
 function HomePage() {
   const [text, setText] = useState("");
   function btnDownloadMyCV() {
-    setText("Prank Test");
+    setText("Prank GitHub Test");
   }
 
   return (
