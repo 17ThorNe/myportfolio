@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.contain_nav_bar {
+  width: 100%;
+  font-family: "Spicy Rice", serif;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0px 0px 10px #0eb65f;
+}
+.contain_nav_bar p {
+  color: #0eb65f;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.2s;
+}
+.contain_nav_bar p:hover {
+  transform: scale(1.1);
+}
+
+.contain_nav_bar ul {
+  display: flex;
+}
+.contain_nav_bar li {
+  list-style: none;
+  margin-left: 100px;
+}
+.contain_nav_bar li a {
+  color: black;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.contain_nav_bar li a:hover {
+  color: #0eb65f;
+}
+.contain_nav_bar button {
+  background-color: transparent;
+  padding: 10px 25px 10px 25px;
+  border: 2px solid #0eb65f;
+  border-radius: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.contain_nav_bar button:hover {
+  background-color: #0eb65f;
+  color: white;
+}
